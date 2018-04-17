@@ -1,0 +1,94 @@
+body {
+	font-family: Josefin Sans;
+}
+
+.container {
+	padding: 20px 20px;
+}
+
+.navbar-brand {
+	padding: 10px 15px;
+}
+
+.navbar-nav {
+	float: none;
+	margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+}
+
+.navbar-inverse {
+	background: transparent;
+	border: transparent;
+	
+}
+
+.navbar-toggle {
+	background: #666;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #444;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+	color: #000;
+}
+
+.jumbotron {
+	background: url(assets/img/bacck.jpg);
+	background-size: cover;
+	background-position: top;
+	position: relative;
+	padding-bottom: 50px;
+	margin-bottom: 50px;
+
+}
+
+.box {
+	height: 200px;
+	background: rgba(255, 255, 255, 0.7);
+	margin: 5% 25%;
+}
+
+.jumbotron h1, .jumbotron .h1 {
+	font-size: 56px;
+	color: #444;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	font-family: Gamja Flower;
+}
+
+.img {
+			width: 100%;
+  			background-size: cover;
+ 			background-position: center;
+		}
+
+.row {
+	margin-bottom: 2%;
+}
+
+h2 {
+	text-align: center;
+}
+
+#map-container { 
+	height: 300px;
+	margin-bottom: 2%;
+}
+
+.icon {
+	height: 50px;
+	margin: 0 auto;
+}
+
+
+footer {
+	text-align: center;
+}
+

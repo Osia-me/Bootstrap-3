@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bakery sign up page</title>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="form_signUp.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet"> 
+</head>
+<body>
+
+
+<div class="container">
+<!-- Navigation -->
+	<nav class="navbar navbar-inverse">
+
+      <div class="navbar-header">
+      	<a href="bakery.html"><img src="assets/logo/bake2.png" width="70px"></a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="btn-to-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+
+    <div class="collapse navbar-collapse" id="btn-to-collapse">
+      <ul class="nav navbar-nav">
+
+      	 <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Our sweets <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="bakery.html#cupcake">Cup cakes</a></li>
+            <li><a href="bakery.html#icecream">Ice cream</a></li>
+            <li><a href="bakery.html#cake">Cakes</a></li>
+          </ul>
+        </li>
+        <li><a href="bakery.html#shop"><i class="fas fa-shopping-cart"></i> Our shops</a></li>
+        <li><a href="bakery.html#map-container"><i class="fas fa-map"></i> Contact us</a></li>
+        <li><a href="form_signUp.html"><i class="fas fa-user-plus"></i> Sign Up</a></li>
+        <li><a href="form_login.html"><i class="fas fa-user-circle"></i> Login</a></li>
+        
+      </ul>
+
+    </div><!-- /.navba-corllapse -->
+</nav>
+
+<!-- Greeting -->
+<div class="greeting">
+	<h1>Hey there! We are glad to see you!</h1>
+	<h2>Please sign up</h2>
+</div>
+	
+<!-- FB -->
+	<div class="row">
+		<div class="col-lg-12 col-sm-12">
+			<a href="#"><img src="assets/img/fb-signup.png" class="img" alt="fb"></a>
+		</div>
+	</div>
+
+<hr>
+	<h2 class="choice">Or fill in short form below</h2>
+
+<form class="form-horizontal">
+	<div class="form-group">
+    <label for="inputtext3" class="col-sm-2 control-label">Name</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputtext3" placeholder="Your name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputText3" class="col-sm-2 control-label">Surname</label>
+    <div class="col-sm-10">
+      <input type="text" class="form-control" id="inputText3" placeholder="Surname">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+    </div>
+  </div>
+
+<div class="form-group">
+    <label for="inputCity" class="col-sm-2 control-label">Your City</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputCity" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <div class="checkbox">
+        <label>
+          <input type="checkbox"> Remember me
+        </label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </div>
+  </div>
+</form>
+
+
+
+</div>
+
+	
+<!-- Footer -->
+	<footer class="navbar navbar-inverse">
+    <span><a href="#"><img src="assets/img/fb.png" class="icon"></a></span>
+    <span><a href="#"><img src="assets/img/insta.png" class="icon"></a></span>
+    <span><a href="#"><img src="assets/img/w512h5121350249269youtube.png" class="icon"></a></span>
+    <span><a href="#"><img src="assets/img/twitter.png" class="icon"></a></span>
+
+</footer>
+
+
+
+<script src="jquery/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="bakery.js"></script>
+</body>
+</html>
